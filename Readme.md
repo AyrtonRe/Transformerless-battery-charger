@@ -30,5 +30,13 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
 </div>
 
     Etapa 1 "Bulk": Carga a corriente constante.
-     En esta étapa, a corriente constante y siendo la mayor de las 3 etapas, la bateria absorve hasta un 80% de su capacidad. Esta etapa tiene una duración de aproximadamente 4 horas. 
+     En esta étapa la corriente es constante y la mayor de las 3 etapas, esto debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada) y la resistencia interna debido al electrolíto es baja.
+
+    Etapa 2 "Absorción": Carga a tensión constante.
+     En esta étapa la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna de disminuye (lo que debería aumentar la corriente) esta disminución es menor en proporción al aumento de 
+     la tensión en bornes, por lo que la corriente disminuirá.
+
+    Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
+     En esta étapa la corriente sigue disminuyendo progresivamente, pero será menor a la presente en la anterior etapa debido a que la tensión aplicada será menor
+     
 
