@@ -14,7 +14,7 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
 
 
 
->*Resistencia interna: Se posee dos tipos de resistencia interna, siendo "Rohm" la resistencia ohmica dada entre los contactos
+>Resistencia interna: Se posee dos tipos de resistencia interna, siendo "Rohm" la resistencia ohmica dada entre los contactos
            de la batería y la resistencia "Rpol" llamada de polarización, la cual depende de la resistividad entre anódo-electrólito-cátodo.
            Donde esta última es variable en función del estado de carga, mientras que la primera es constante
 
@@ -67,7 +67,14 @@ Presentadas las **etapas ideales de carga**, cabe recalcar que la variación de 
  <p>No sería más rápido mantener la etapa 1 (Bulk) todo el tiempo? <p/>
     
   >Sí, pero la tensión de mantenimiento de la batería es la tensión de flotación, si mantenemos alimentada la batería con una tensión mayor a esta estaríamos generando una sobrecarga constante.
-  
+
+
+## Funcionamiento del cargador sin transformador
+Conociendo parte del comportamiento de la batería, podemos analizar el proceso y circuito de carga utilizado en este tipo de cargadores.
+### Proceso de carga
+El proceso de carga se basa en explotar la anteriormente vista **etapa 3 o etapa "De flotación"**, esto debido a que es la única etápa que puede permanecer con una corriente constante sin dañar la batería, ya que la tensión o corriente de flotación es la que está 
+*permanentemente* aplicada a las baterías para evitar que estas se descarguen.
+<p>El principio es sencillo, sabiendo que la resistencia interna de la batería disminuye con la carga, si mantengo constante la corriente que aplico sobre esta, la tensión será inversamente proporcional a la resistencia interna, es decir que cuando la batería esté descargada será cuando mayor tensión tenga aplicada, a medida que se va cargando la tensión disminuirá</p>
 
 
 
