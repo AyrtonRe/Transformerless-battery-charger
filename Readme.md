@@ -12,6 +12,12 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
              de corriente máxima de esta será 10A (300Ah/30h = 10A)
              si utilizamos mayor corriente que esta, la capacidad de la batería disminuirá.*
 
+
+
+>*Resistencia interna: Se posee dos tipos de resistencia interna, siendo "Rohm" la resistencia ohmica dada entre los contactos
+           de la batería y la resistencia "Rpol" llamada de polarización, la cual depende de la resistividad entre anódo-electrólito-cátodo.
+           Donde esta última es variable en función del estado de carga, mientras que la primera es constante
+
        
 
 **Es importante conocer estos conceptos debido a que todas las curvas que veamos sobre baterías dependerán de la capacidad y del tiempo de cada batería en específico.**
@@ -30,10 +36,10 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
 </div>
 
     Etapa 1 "Bulk": Carga a corriente constante.
-     En esta étapa la corriente es constante y la mayor de las 3 etapas, esto debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada) y la resistencia interna debido al electrolíto es baja.
+     En esta étapa la corriente es constante y la mayor de las 3 etapas, esto debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada), a su vez la resistencia interna es la más alta de todas las etapas.
 
     Etapa 2 "Absorción": Carga a tensión constante.
-     En esta étapa la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna de disminuye (lo que debería aumentar la corriente) esta disminución es menor en proporción al aumento de 
+     En esta étapa la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna disminuye (lo que debería aumentar la corriente) esta disminución es menor en proporción al aumento de 
      la tensión en bornes, por lo que la corriente disminuirá.
 
     Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
