@@ -67,13 +67,46 @@ Presentadas las **etapas ideales de carga**, cabe recalcar que la variación de 
   >Sí, pero la tensión de mantenimiento de la batería es la tensión de flotación, si mantenemos alimentada la batería con una tensión mayor a esta estaríamos generando una sobrecarga constante.
 
 
-## Funcionamiento del cargador sin transformador
+## Funcionamiento del cargador
 Conociendo parte del comportamiento de la batería, podemos analizar el proceso y circuito de carga utilizado en este tipo de cargadores.
 ### Proceso de carga
 El proceso de carga se basa en explotar la anteriormente vista **etapa 3 o etapa "De flotación"**, esto debido a que es la única etápa que puede permanecer con una corriente constante sin dañar la batería, ya que la tensión o corriente de flotación es la que está 
 *permanentemente* aplicada a las baterías para evitar que estas se descarguen.
-<p>El principio es sencillo, sabiendo que la resistencia interna de la batería disminuye con la carga, si mantengo constante la corriente que aplico sobre esta, la tensión será inversamente proporcional a la resistencia interna, es decir que cuando la batería esté descargada será cuando mayor tensión tenga aplicada, a medida que se va cargando la tensión disminuirá</p>
+<p>El principio es sencillo, sabiendo que la resistencia interna de la batería disminuye con la carga, si mantengo constante la corriente que aplico sobre esta, la tensión en la batería será inversamente proporcional a la resistencia interna, es decir que cuando la batería esté descargada será cuando menor tensión tenga aplicada, a medida que se va cargando la tensión aumenta.</p>
+<p> Esto es más sencillo de ver si se dibuja el circuito</p>
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/9d37872dae6c7b9087c2393add23b4f8aac79e50/Images/DFSGWSERTAHRTWSH.png" alt="Circuito de carga" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a>Circuito de carga corriente constante</a>
+  </p>
+</div>
 
+Si aplicamos las leyes de Kirchoff en el circuito, vemos que:
+>Vfuente = Vbat - I * Rbat
 
+Si ahora de alguna manera logramos que esa corriente sea constante, teniendo en cuenta que la "Rbat" disminuirá con el tiempo, si ademas mantenemos la "Vfuente" constante, el producto I*Rbat disminuirá en igual medida que el incremento de Vbat.
+>Es decir que la tensión en la batería aumentará debido a la disminución de su resistencia interna, este proceso se dará hasta que se llegue al punto en que la variación de la Resistencia sea muy pequeña, todo este proceso se tiene en cuenta en la etapa de flotación, ya que la misma consiste en aplicar tanto tensión como corriente prácticamente constante.
 
+### Circuito de carga
+Sabiendo en qué consiste el proceso de carga, vemos que para realizar la carga de la batería solo basta con aplicar una corriente constante tal que sea similar a la prevista para la etápa de flotación, este proceso solo se aplica de forma eficiente para baterías del tipo "stand by" (baterías que solo se descargan rara vez, diferente a las baterías "cíclicas" las cuales cumplen ciclos de descarga rápidos) debido a que es un ciclo de carga muy lento, por lo que solo llegará a cargar totalmente la batería si esta no se utiliza en mucho tiempo.
+<p>Ahora veamos el circuito genérico de carga que se utiliza en estos cargadores<p/>
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/ce79e21a618f1887ee3a131c80c7e21291c04631/Images/DFSGWSERdfghdfghTAHRTWSH.png" alt="Circuito de carga" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a>Circuito de carga</a>
+  </p>
+</div>
+Lo primero que notamos es que la entrada es de 220V CA, y que el circuito tiene el paralelo de una resistencia (R1) y un capacitor (C1) en serie con la batería, pasando previamente por un puente rectificador.
+<p>La parte más imporante para este circuito es la elección del capacitor "C1", ya que este será el que limite la corriente de todo el circuito, esto es sencillo de ver si aplicamos Kirchoff</p>
+<p>Si ignoramos las caídas en los diodos, tendríamos</p>
 
+> Vrms= I * Zeq + I * Rbat + Vbat
+
+Pero como vimos anteriormente, la Rbat suele ser muy pequeña, sobretodo comparado con los 2100 (Ohms) del capacitor, por lo que el cálculo de la corriente se puede expresar como 
+> Vrms= I * Zeq + Vbat
+
+Es decir que la corriente será prácticamente constante, ya que solo variará en función de la carga de la batería, pero esta será a lo sumo de 5 o 12 (V), lo cual no representaría nada respecto a los 220(Vrms) de la onda aplicada
