@@ -109,4 +109,22 @@ Lo primero que notamos es que la entrada es de 220V CA, y que el circuito tiene 
 Pero como vimos anteriormente, la Rbat suele ser muy pequeña, sobretodo comparado con los 2100 (Ohms) del capacitor, por lo que el cálculo de la corriente se puede expresar como 
 > Vrms= I * Zeq + Vbat
 
-Es decir que la corriente será prácticamente constante, ya que solo variará en función de la carga de la batería, pero esta será a lo sumo de 5 o 12 (V), lo cual no representaría nada respecto a los 220(Vrms) de la onda aplicada
+Es decir que la corriente será prácticamente constante, ya que solo variará en función de la carga de la batería, pero esta será a lo sumo de 5 o 12 (V), lo cual no representaría nada respecto a los 220(Vrms) de la onda aplicada, por lo que la corriente de carga o flotación solo dependerá de la reactancia del capacitor.
+
+<p>El problema de este circuito es que no posee ningún tipo de protección, solo se limíta la carga por el valor de corriente, el cual debe estar bien calculado dependiendo de la capacidad de la batería a cargar</p>
+
+>Diferentes marcas de baterías recomiendan diferentes valores de corrientes de flotación, pero estos valores suelen estar entre el 2 y 1 por ciento de la capacidad de la batería, es decir, si tengo una batería de 1,2 (Ah) debería cargarla con una corriente de entre 24 a 12(mA)
+
+Para el caso del circuito presentado, el mismo alimenta dos baterías de 2,4 (Ah) en parelelo, por lo que por recomendación la corriente de flotación debería ser de entre 48 y 96 (mA)
+*<p>Pero, se cumplirá este valor?</p>*
+Para ver esto basta con medir la corriente de alimentación del circuito, lo cual se puede ver en la siguiente imagen
+
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/e3fb73e702baee1251ceca604a9c3a3724d86178/Images/IMG_20250302_210753_300.jpg" alt="Corriente de flotación" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a>Corriente de flotación, medida con un nucleo de 50 vueltas</a>
+  </p>
+</div>
+Vemos que la pinza marca 4.58(A), pero como está pasando por un nucleo de 50 vueltas, la medición real es de 91(mA) por lo que vemos que se cumple lo recomendado. 
