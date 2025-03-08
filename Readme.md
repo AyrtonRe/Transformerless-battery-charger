@@ -51,9 +51,23 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
      
 Presentadas las **etapas ideales de carga**, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, el electrolíto disminuye su concentración de ácido sulfúrico (H₂SO₄), esto genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que la conductividad eléctrica del electrolíto depende de la concentración de ácido sulfúrico, comparados al estado de carga, en el cual el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna. La variación de la concentración de H₂SO₄ está explicada en el [siguiente artículo](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water.)
 
-Entonces, esta es la única forma de cargar las baterías?
-No, esta es la **forma ideal de carga** en cuanto a velocidad y seguridad, respetando ciertos estándares y valores para no generar sobrecalentamiento ni desgastes innecesarios en la batería.
-No sería más rápido mantener la etapa 1 (Bulk) todo el tiempo? Sí, pero la tensión de mantenimiento de la batería es la tensión de flotación, si mantenemos alimentada la batería con una tensión mayor a esta estaríamos generando una sobrecarga constante.
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/44719e3852ff6166a3bef7ba67029e644e6f465f/Images/partone-22f.jpg" alt="curvadecarga" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a href="https://batteryuniversity.com/article/how-does-internal-resistance-affect-performance">Variación de la resistencia interna en función de la tensión en bornes</a>
+  </p>
+</div>
+
+   Entonces, esta es la única forma de cargar las baterías?
+   
+ >No, esta es la **forma ideal de carga** en cuanto a velocidad y seguridad, respetando ciertos estándares y valores para no generar sobrecalentamiento ni desgastes innecesarios en la batería.
+
+ <p>No sería más rápido mantener la etapa 1 (Bulk) todo el tiempo? <p/>
+    
+  >Sí, pero la tensión de mantenimiento de la batería es la tensión de flotación, si mantenemos alimentada la batería con una tensión mayor a esta estaríamos generando una sobrecarga constante.
+  
 
 
 
