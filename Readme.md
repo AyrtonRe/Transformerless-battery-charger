@@ -138,7 +138,7 @@ Esta es tal vez la forma más fácil, consiste en agregar un diodo zenner en par
 <p>Un ejemplo de este circuito podría verse así</p>
 
 <p align="center">
-  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/e841dd973e3d1456ab5a55cb48bc1cfc342af701/Images/zenner.png" alt="Zenner protection" width="500">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/f84a6abce74bc7af588f4ce4edd388ffbc325e99/Images/zenner.png" alt="Zenner protection" width="500">
 </p>
 <div align="center">
   <p> 
