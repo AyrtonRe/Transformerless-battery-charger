@@ -153,4 +153,5 @@ El valor de 220(ohm) de R2 no debe tomarse a cuenta, ya que solo es ilustrativo,
 [Métodos de carga 2](https://www.power-sonic.com/blog/how-to-charge-a-lead-acid-battery/)
 [Efecto de la resistencia interna](https://batteryuniversity.com/article/how-does-internal-resistance-affect-performance)
 [Foro sobre cargadores transformerless](https://www.electro-tech-online.com/threads/transformerless-power-supply-from-a-rechargeble-torch.166093/)
+[Artículo sobre cargadores transformerless](https://www.homemade-circuits.com/cheap-yet-useful-transformerless-power/)
 
