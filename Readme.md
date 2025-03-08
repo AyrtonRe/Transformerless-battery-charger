@@ -147,3 +147,10 @@ Esta es tal vez la forma más fácil, consiste en agregar un diodo zenner en par
 </div>
 El valor de 220(ohm) de R2 no debe tomarse a cuenta, ya que solo es ilustrativo, este corresponderá a la potencia del zenner, tensión de éste y a la tensión de flotación de la batería.
 
+## Bibliografía y fuentes consultadas
+[Teoría sobre baterías](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water)
+[Métodos de carga](https://batteryuniversity.com/article/bu-403-charging-lead-acid)
+[Métodos de carga 2](https://www.power-sonic.com/blog/how-to-charge-a-lead-acid-battery/)
+[Efecto de la resistencia interna](https://batteryuniversity.com/article/how-does-internal-resistance-affect-performance)
+[Foro sobre cargadores transformerless](https://www.electro-tech-online.com/threads/transformerless-power-supply-from-a-rechargeble-torch.166093/)
+
