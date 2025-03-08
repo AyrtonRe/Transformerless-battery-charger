@@ -35,15 +35,15 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
   <p>Curva de carga gel plomo para batería C20</p>
 </div>
 
-    Etapa 1 "Bulk": Carga a corriente constante.
+   >Etapa 1 "Bulk": Carga a corriente constante.
      En esta étapa la corriente es constante y la mayor de las 3 etapas, esto debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada), a su vez la resistencia interna es la más alta de todas las etapas.
 
-    Etapa 2 "Absorción": Carga a tensión constante.
+   >Etapa 2 "Absorción": Carga a tensión constante.
      En esta étapa la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna disminuye (lo que debería aumentar la corriente) esta disminución es menor en proporción al aumento de 
      la tensión en bornes, por lo que la corriente disminuirá.
 
-    Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
+   >Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
      En esta étapa la corriente sigue disminuyendo progresivamente, pero será menor a la presente en la anterior etapa debido a que la tensión aplicada será menor
      
->*Presentadas las etapas ideales de carga, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, el electrolíto disminuye su concentración de ácido sulfúrico (H₂SO₄), esto genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que la conductividad eléctrica del electrolíto depende de la concentración de ácido sulfúrico, comparados al estado de carga, en el cual el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna. La variación de la concentración de H₂SO₄ está explicada en el [siguiente artículo](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water.)
+Presentadas las etapas ideales de carga, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, el electrolíto disminuye su concentración de ácido sulfúrico (H₂SO₄), esto genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que la conductividad eléctrica del electrolíto depende de la concentración de ácido sulfúrico, comparados al estado de carga, en el cual el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna. La variación de la concentración de H₂SO₄ está explicada en el [siguiente artículo](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water.)
 
