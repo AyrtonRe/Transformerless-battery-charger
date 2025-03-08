@@ -27,13 +27,17 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
         
 </div>
 
-
 <p align="center">
   <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/f4d6a19c4276a8062f505b1403d495276769aebb/Images/Shield-fig-3.jpg" alt="curvadecarga" width="500">
 </p>
+
 <div align="center">
-  <p> [Curva de carga gel plomo para batería C20](https://www.shieldbatteries.co.uk/documents/BESTmag%20issue%2072%20charging.pdf) </p>
+  <p> 
+    <a href="https://www.shieldbatteries.co.uk/documents/BESTmag%20issue%2072%20charging.pdf">Curva de carga gel plomo para batería C20</a>
+  </p>
 </div>
+
+
 
    >Etapa 1 "Bulk": Carga a corriente constante.
      En esta étapa la corriente es constante y la mayor de las 3 etapas debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada), esto se logra aumentando progresivamente la tensión aplicada a la batería a medida que aumenta la tensión absorvida, a su vez la resistencia interna es la más alta de todas las etapas. Esta etápa finaliza al alcanzar el valor de tensión conocido como "tensión de absorción".
