@@ -101,7 +101,7 @@ Sabiendo en qué consiste el proceso de carga, vemos que para realizar la carga 
   </p>
 </div>
 Lo primero que notamos es que la entrada es de 220V CA, y que el circuito tiene el paralelo de una resistencia (R1) y un capacitor (C1) en serie con la batería, pasando previamente por un puente rectificador.
-<p>La parte más imporante para este circuito es la elección del capacitor "C1", ya que este será el que limite la corriente de todo el circuito, esto es sencillo de ver si aplicamos Kirchoff</p>
+<p>La parte más importante para este circuito es la elección del capacitor "C1", ya que este será el que limite la corriente de todo el circuito, esto es sencillo de ver si aplicamos Kirchhoff</p>
 <p>Si ignoramos las caídas en los diodos, tendríamos</p>
 
 > Vrms= I * Zeq + I * Rbat + Vbat
