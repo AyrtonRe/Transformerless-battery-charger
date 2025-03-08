@@ -45,4 +45,4 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
     Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
      En esta étapa la corriente sigue disminuyendo progresivamente, pero será menor a la presente en la anterior etapa debido a que la tensión aplicada será menor
      
-
+Presentadas las etapas ideales de carga, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, tanto ánodo como cátodo están compuestos por sulfato de plomo (PbSO₄), mientras que el electrolíto disminuye su concentración de ácido sulfúrico  (H₂SO₄), esta combinación de estados genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que son elementos con menor conductividad eléctrica comparados al estado de carga, en el cual el ánodo está compuesto por plomo (Pb), cátodo compuesto por dióxido de plomo (PbO₂) y el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna.
