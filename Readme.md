@@ -36,14 +36,21 @@ Este tipo de cargadores consiste en utilizar y explotar una de las 3 etapas de c
 </div>
 
    >Etapa 1 "Bulk": Carga a corriente constante.
-     En esta étapa la corriente es constante y la mayor de las 3 etapas, esto debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada), a su vez la resistencia interna es la más alta de todas las etapas.
+     En esta étapa la corriente es constante y la mayor de las 3 etapas debido a que la batería tiene la menor tensión entre bornes (debido a que está descargada), esto se logra aumentando progresivamente la tensión aplicada a la batería a medida que aumenta la tensión absorvida, a su vez la resistencia interna es la más alta de todas las etapas. Esta etápa finaliza al alcanzar el valor de tensión conocido como "tensión de absorción".
 
    >Etapa 2 "Absorción": Carga a tensión constante.
-     En esta étapa la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna disminuye (lo que debería aumentar la corriente) esta disminución es menor en proporción al aumento de 
-     la tensión en bornes, por lo que la corriente disminuirá.
+     En esta étapa, a tensión constante igual a la de absorción, la corriente disminuye progresivamente, esto debido a que la tensión en bornes de la batería aumenta gradualmente, si bien la resistencia interna disminuye (lo que debería aumentar la corriente) esta 
+     disminución es menor en proporción al aumento de la tensión en bornes, por lo que la corriente disminuirá.
 
    >Etapa 3 "Flotación": Carga a tensión constante, menor a la etapa 2.
-     En esta étapa la corriente sigue disminuyendo progresivamente, pero será menor a la presente en la anterior etapa debido a que la tensión aplicada será menor
+     En esta étapa la tensión se disminuye hasta la conocida como "tensión de flotación", a su vez la corriente sigue disminuyendo progresivamente, pero será menor a la presente en la anterior etapa debido a que la tensión aplicada será menor.
      
-Presentadas las etapas ideales de carga, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, el electrolíto disminuye su concentración de ácido sulfúrico (H₂SO₄), esto genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que la conductividad eléctrica del electrolíto depende de la concentración de ácido sulfúrico, comparados al estado de carga, en el cual el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna. La variación de la concentración de H₂SO₄ está explicada en el [siguiente artículo](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water.)
+Presentadas las **etapas ideales de carga**, cabe recalcar que la variación de la resistencia interna (principalmente Rpol) se dá debido a que en estado descargada, el electrolíto disminuye su concentración de ácido sulfúrico (H₂SO₄), esto genera que la resistencia entre ánodo-electrilíto-cátodo sea mayor, debido a que la conductividad eléctrica del electrolíto depende de la concentración de ácido sulfúrico, comparados al estado de carga, en el cual el electrolíto tiene la mayor concentración de ácido sulfúrico, lo que provoca que se tenga menor resistencia interna. La variación de la concentración de H₂SO₄ está explicada en el [siguiente artículo](https://www.pveducation.org/pvcdrom/batteries/lead-acid-batteries#:~:text=A%20lead%20acid%20battery%20consists,of%20sulfuric%20acid%20and%20water.)
+
+Entonces, esta es la única forma de cargar las baterías?
+No, esta es la **forma ideal de carga** en cuanto a velocidad y seguridad, respetando ciertos estándares y valores para no generar sobrecalentamiento ni desgastes innecesarios en la batería.
+No sería más rápido mantener la etapa 1 (Bulk) todo el tiempo? Sí, pero la tensión de mantenimiento de la batería es la tensión de flotación, si mantenemos alimentada la batería con una tensión mayor a esta estaríamos generando una sobrecarga constante.
+
+
+
 
