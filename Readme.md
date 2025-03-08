@@ -128,3 +128,33 @@ Para ver esto basta con medir la corriente de alimentación del circuito, lo cua
   </p>
 </div>
 Vemos que la pinza marca 4.58(A), pero como está pasando por un nucleo de 50 vueltas, la medición real es de 91(mA) por lo que vemos que se cumple lo recomendado. 
+
+## Posibles mejoras para el circuito
+Como se mencionó anteriormente, uno de los puntos débiles de este circuito es que no posee corte por tensión, es decir que en caso de no estár bien calculada la corriente de flotación (caso de agregar baterías diferentes a las de fábrica) la tensión de la batería subiría por encima de la recomendada, generando una sobrecarga
+<p>Para evitar esto, se puede proteger la batería mediante uno de dos posibles dispositivos</p>
+
+### Mediante diodo zenner
+Esta es tal vez la forma más fácil, consiste en agregar un diodo zenner en paralelo a bornes de la batería, para así limitar la tensión que se pérmite en estos, este diodo podría ser de 5.1(V) para el caso de cargar una batería de 4(V), el mismo debe estár acompañado por una resistencia previa a este para limitar la corriente, idealmente de valor bajo (pero teniendo en cuenta la corriente/potencia del zenner) para no interferir con el valor del capacitor.
+<p>Un ejemplo de este circuito podría verse así</p>
+
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/e841dd973e3d1456ab5a55cb48bc1cfc342af701/Images/zenner.png" alt="Zenner protection" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a>Circuito con protección por zenner</a>
+  </p>
+</div>
+El valor de 220(ohm) de R2 no debe tomarse a cuenta, ya que solo es ilustrativo, este corresponderá a la potencia del zenner, tensión de éste y a la tensión de flotación de la batería.
+
+### Mediante regulador de tensión
+Esta es la forma más correcta
+<p align="center">
+  <img src="https://github.com/AyrtonRe/Transformerless-battery-charger/blob/e841dd973e3d1456ab5a55cb48bc1cfc342af701/Images/zenner.png" alt="Zenner protection" width="500">
+</p>
+<div align="center">
+  <p> 
+    <a>Circuito con protección por zenner</a>
+  </p>
+</div>
+El valor de 10(ohm) de R2 no debe tomarse a cuenta, ya que solo es ilustrativo, este corresponderá a la potencia del zenner y a la tensión de flotación de la batería
